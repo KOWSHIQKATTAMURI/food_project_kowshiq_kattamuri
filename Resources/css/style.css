@@ -166,13 +166,13 @@ h3{
     margin: 0;
     overflow: hidden;
     background-color: black;
-    transition: transform 0.5s, opacity 0.5s;
 }
 .meal-photo img{
     width: 100%;
     height: auto;
     transform: scale(1.15);
     opacity: 0.7;
+    transition: all 0.5s ease;
 }
 .meal-photo img:hover{
     transform: scale(1.03);
@@ -202,11 +202,21 @@ h3{
     margin-top: 30px;
 }
 .steps-box:last-child{
-    padding-left: 12%;
     margin-top: 70px;
 }
 .app-screen{
     width: 50%;
+}
+
+.works-step
+{
+    display: flex;
+    align-items: center;
+    
+}
+.works-step:last-of-type
+{
+    margin-bottom: 80px;
 }
 .works-step div{
     color: #e67e22;
@@ -220,9 +230,7 @@ h3{
     float: left;
     font-size: 150%;
 }
-.works-step:last-of-type{
-    margin-bottom: 80px;
-}
+
 .btn-app img{
     height: 50px;
     width: auto;
