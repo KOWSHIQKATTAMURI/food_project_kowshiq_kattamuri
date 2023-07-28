@@ -85,6 +85,13 @@
         padding: 4px;
         font-size: 120%;
     }
+    .works-step:first-of-type div{
+        height: 40px;
+        width: 40px;
+        margin-right: 15px;
+        padding: 4px;
+        font-size: 120%;
+    }
     .works-step{
         margin-bottom: 20px;
     }
